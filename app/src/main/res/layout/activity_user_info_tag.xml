@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.renren.wz.tagselected.widget.FlowLayout
+        android:id="@+id/flowLayout_tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:minWidth="80dp"
+        app:flow_equally="false"
+        app:flow_horizontalSpacing="20dp"
+        app:flow_maxSelectNum="8"
+        app:flow_verticalSpacing="25dp" />
+
+</androidx.core.widget.NestedScrollView>
+
+
