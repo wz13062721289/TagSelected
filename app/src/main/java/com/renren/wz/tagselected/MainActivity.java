@@ -17,7 +17,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-
+/**
+ * Created by zan on 2018/12/11.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final int TAG_REQUEST_CODE = 101;
